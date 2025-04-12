@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shayri Time</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe0ec, #fff9f3);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #e75480;
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+
+    .shayri-box {
+      background-color: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 750px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      font-size: 20px;
+      line-height: 1.5;
+      color: #444;
+      position: relative;
+      white-space: pre-wrap;
+    }
+
+    .shayri-box::before {
+      content: "❝";
+      font-size: 40px;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      color: #f78ca2;
+    }
+
+    .shayri-box::after {
+      content: "❞";
+      font-size: 40px;
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      color: #f78ca2;
+    }
+    .signature {
+  text-align: right;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #e75480;
+}
+
+    .back-button {
+      margin-top: 50px;
+      padding: 12px 28px;
+      font-size: 18px;
+      background-color: #ff8c8c;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>✍️ Shayri Time</h1>
+
+  <div class="shayri-box">
+कभी वो मेरा सहारा 🤝, कभी वो मेरी छाँव 🌿,<br>
+कभी वो मेरी ताकत 💪, कभी वो मेरा नाम 🏷।<br>
+हर मुश्किल में वो साथ 🤗, हर खुशी में वो खुश 😊,<br><br>
+
+कभी नाराज़ होते हैं 😠, कभी समझाते हैं 🧠,<br>
+पर हर वक्त दिल से दुआएँ ही भेजते हैं 🙏💫।<br>
+कंधों पे बिठाया 🧒👨, फिर उड़ना सिखाया 🕊✈,<br>
+ऐसे हैं पापा 👨‍👧, जिन्होंने मेरा हर सपना सजाया 🌟🏡
+
+<div class="signature">~ शिवांश</div>
+  </div>
+
+  <!-- You can keep more shayris below if you like -->
+  <!-- <div class="shayri-box">Another shayri here...</div> -->
+
+  <button class="back-button" onclick="window.location.href='index.html'">⬅ Back to Home</button>
+
+</body>
+</html>
